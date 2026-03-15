@@ -71,7 +71,7 @@ export const ReviewMarquee = () => {
 
 export const CloudCharacter = ({ src, alt, className = "" }: { src: string, alt: string, className?: string }) => (
   <div className={`absolute flex-col items-center z-0 ${className}`}>
-    <Image src={src} alt={alt} width={500} height={500} className="w-full h-auto drop-shadow-2xl relative z-0" style={{ transformOrigin: 'bottom center' }} referrerPolicy="no-referrer" />
+    <Image src={src} alt={alt} width={500} height={500} className="w-full h-auto drop-shadow-2xl relative z-0" style={{ transformOrigin: 'bottom center' }} referrerPolicy="no-referrer" unoptimized />
     <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[120%] z-10 pointer-events-none">
       <svg viewBox="-15 -15 230 80" preserveAspectRatio="none" className="w-full h-16 drop-shadow-sm">
         <path d="M -10 60 C -10 20, 20 10, 40 30 C 60 -10, 110 -10, 140 20 C 160 0, 210 10, 210 60 Z" fill="white" stroke="#1A1A1A" strokeWidth="4" vectorEffect="non-scaling-stroke" strokeLinejoin="round" />
