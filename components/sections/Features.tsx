@@ -11,7 +11,7 @@ export function Features() {
       <section className="py-24 px-4 md:px-8 bg-[#FFD4A8] relative overflow-hidden text-[#1A1A1A]">
         {/* Chibi Colère (Left) */}
         <CloudCharacter 
-          src="/contrarie-colere.png" 
+          src="/contrarié colère.png" 
           alt="ChadScience en colère" 
           className="hidden 2xl:flex 2xl:left-8 top-20 w-64 2xl:w-80 z-10 transform rotate-6" 
         />
@@ -166,7 +166,7 @@ export function Features() {
         <div className="max-w-4xl mx-auto bg-white rounded-[3rem] border-4 border-[#1A1A1A] p-8 md:p-12 shadow-cartoon relative transform rotate-1 hover:rotate-0 transition-transform duration-300">
           {/* Chibi Innocent Fier (Parents) */}
           <CloudCharacter 
-            src="/innocent-fier.png" 
+            src="/innocent fier.png" 
             alt="ChadScience Fier" 
             className="hidden lg:flex absolute -top-24 -right-12 w-48 lg:w-64 z-20 transform rotate-6" 
           />

@@ -62,7 +62,7 @@ export function Hero() {
         {/* Mobile Character (Visible only on small screens) */}
         <div className="md:hidden w-full flex justify-center mb-6 relative z-10">
           <CloudCharacter 
-            src="/innocent-fier.png" 
+            src="/innocent fier.png" 
             alt="ChadScience Fier" 
             className="w-40 rotate-3" 
           />
@@ -70,7 +70,7 @@ export function Hero() {
 
         {/* Chibi Innocent Fier (Hero Desktop) */}
         <CloudCharacter 
-          src="/innocent-fier.png" 
+          src="/innocent fier.png" 
           alt="ChadScience Fier" 
           className="hidden md:flex absolute -right-4 lg:right-4 xl:right-12 top-12 lg:top-20 w-48 lg:w-64 rotate-6 z-20" 
         />
