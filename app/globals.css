@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-brand-orange: #FF6B1A;
+  --color-brand-cream: #FFF5E6;
+  --color-brand-peach: #FFD4A8;
+  --color-brand-yellow: #FFE066;
+  --color-brand-text: #1A1A1A;
+}
+
+body {
+  font-family: var(--font-baloo), sans-serif;
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-text);
+}
+
+h1, h2, h3, h4, h5, h6, .font-extrabold, .font-bold {
+  font-family: var(--font-baloo), sans-serif;
+}
+
+.shadow-cartoon {
+  box-shadow: 4px 4px 0px 0px var(--color-brand-text);
+}
+.shadow-cartoon-lg {
+  box-shadow: 8px 8px 0px 0px var(--color-brand-text);
+}
+.shadow-cartoon-hover:hover {
+  box-shadow: 2px 2px 0px 0px var(--color-brand-text);
+  transform: translate(2px, 2px);
+}
+.shadow-cartoon-lg-hover:hover {
+  box-shadow: 4px 4px 0px 0px var(--color-brand-text);
+  transform: translate(4px, 4px);
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+}
